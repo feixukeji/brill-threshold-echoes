@@ -1,0 +1,53 @@
+grid (400, 960) (ax 6.33), from T = 20.0 (400, 960) (ax 8.0); eta 1.0; tclock from T = 12.0 on tc* = 2.147
+round 0 from out/gh/bis_gpu/t24d_pair.npz: T = 20.00, bracket [-3.509113870000000, -3.509113864000000]
+round 0: from T = 20.00, grid (400, 960), ell 0.05159603162561124, ln L -1.7970, tc 1.85143
+  T = 20.00: active 16, amin 0.034 0.034 0.034 0.034 0.034 0.034 0.034 0.034 0.034 0.034 0.034 0.034 0.034 0.034 0.034 0.034 [2s]
+  T = 22.00: active 16, amin 0.162 0.162 0.162 0.162 0.162 0.162 0.162 0.162 0.162 0.162 0.162 0.162 0.162 0.162 0.162 0.162 [1006s]
+  T = 24.00: active 16, amin 0.040 0.040 0.040 0.040 0.040 0.040 0.040 0.040 0.040 0.040 0.040 0.040 0.040 0.040 0.040 0.040 [1849s]
+  T = 26.00: active 16, amin 0.184 0.184 0.184 0.184 0.184 0.184 0.184 0.184 0.184 0.184 0.184 0.184 0.184 0.184 0.184 0.184 [2673s]
+  T = 28.00: active 16, amin 0.041 0.041 0.041 0.041 0.041 0.041 0.041 0.041 0.041 0.041 0.041 0.041 0.041 0.041 0.041 0.041 [3485s]
+  T = 30.00: active 16, amin 0.103 0.103 0.103 0.103 0.103 0.103 0.103 0.103 0.103 0.103 0.103 0.103 0.103 0.103 0.103 0.103 [4249s]
+  T = 32.00: active 16, amin 0.031 0.031 0.031 0.031 0.031 0.031 0.031 0.031 0.031 0.031 0.031 0.031 0.031 0.031 0.031 0.031 [5120s]
+  T = 34.00: active 16, amin 0.042 0.042 0.042 0.042 0.042 0.042 0.042 0.042 0.042 0.042 0.042 0.042 0.042 0.042 0.042 0.042 [5864s]
+  T = 36.00: active 16, amin 0.048 0.048 0.048 0.048 0.048 0.048 0.048 0.048 0.048 0.048 0.048 0.048 0.048 0.048 0.048 0.048 [6671s]
+  T = 38.00: active 16, amin 0.045 0.045 0.045 0.045 0.045 0.045 0.045 0.045 0.045 0.046 0.046 0.046 0.046 0.046 0.046 0.046 [7396s]
+  T = 40.00: active 16, amin 0.343 0.343 0.343 0.343 0.342 0.342 0.342 0.341 0.341 0.341 0.341 0.340 0.340 0.340 0.340 0.339 [8244s]
+  T = 42.00: active 16, amin 0.056 0.056 0.056 0.056 0.056 0.056 0.056 0.056 0.056 0.056 0.056 0.057 0.057 0.057 0.057 0.057 [8945s]
+  T = 44.00: active 16, amin 0.185 0.185 0.185 0.185 0.184 0.184 0.183 0.183 0.182 0.182 0.181 0.181 0.180 0.180 0.179 0.179 [9639s]
+  T = 46.00: active 16, amin 0.078 0.079 0.080 0.081 0.082 0.083 0.084 0.084 0.085 0.086 0.087 0.088 0.089 0.090 0.091 0.092 [10323s]
+  T = 48.00: active 16, amin 0.159 0.160 0.162 0.163 0.164 0.166 0.167 0.169 0.170 0.172 0.174 0.175 0.177 0.179 0.181 0.183 [10998s]
+  T = 50.00: active 16, amin 0.088 0.091 0.094 0.097 0.100 0.104 0.108 0.112 0.117 0.121 0.126 0.131 0.136 0.141 0.146 0.151 [11665s]
+   regridded to (1200, 1440) (ax 8.0), ell 0.0420: max|C| 4.71e-03 [10s]
+  T = 52.00: grid (1200, 1440) [12331s]
+  T = 52.00: active 16, amin 0.108 0.110 0.113 0.117 0.121 0.126 0.133 0.141 0.150 0.160 0.166 0.159 0.149 0.140 0.134 0.130 [12334s]
+  T = 52.95: member 5 collapse (step not finite; last finite K_ij K^ij peak at x / box 0.00), min alpha at the last refresh 0.0320
+  T = 52.95: member 6 collapse (step not finite; last finite K_ij K^ij peak at x / box 0.00), min alpha at the last refresh 0.0356
+  T = 53.00: member 4 collapse (not finite; last finite K_ij K^ij peak at x / box 0.00), min alpha at the last refresh nan
+  T = 53.10: member 3 collapse (not finite; last finite K_ij K^ij peak at x / box 0.00), min alpha at the last refresh nan
+  T = 53.15: member 2 collapse (step not finite; last finite K_ij K^ij peak at x / box 0.00), min alpha at the last refresh 0.0236
+  T = 53.20: member 7 collapse (not finite; last finite K_ij K^ij peak at x / box 0.00), min alpha at the last refresh nan
+  T = 53.25: member 8 collapse (step not finite; last finite K_ij K^ij peak at x / box 0.00), min alpha at the last refresh 0.0482
+  T = 53.30: member 1 collapse (not finite; last finite K_ij K^ij peak at x / box 0.00), min alpha at the last refresh nan
+  T = 53.45: member 0 collapse (step not finite; last finite K_ij K^ij peak at x / box 0.00), min alpha at the last refresh 0.0154
+  T = 53.45: member 9 collapse (step not finite; last finite K_ij K^ij peak at x / box 0.00), min alpha at the last refresh 0.0538
+  T = 54.00: active 6, amin 0.071 0.091 0.119 0.156 0.192 0.226 [23470s]
+  T = 56.00: active 6, amin 0.171 0.319 0.400 0.453 0.486 0.510 [34440s]
+  T = 58.00: active 6, amin 0.079 0.640 0.672 0.683 0.683 0.696 [45280s]
+round 0 [56040s]:
+   s = 0.0588  A = -3.509113869647059: collapse at T = 53.45
+   s = 0.1176  A = -3.509113869294117: collapse at T = 53.30
+   s = 0.1765  A = -3.509113868941176: collapse at T = 53.15
+   s = 0.2353  A = -3.509113868588235: collapse at T = 53.10
+   s = 0.2941  A = -3.509113868235294: collapse at T = 53.00
+   s = 0.3529  A = -3.509113867882353: collapse at T = 52.95
+   s = 0.4118  A = -3.509113867529412: collapse at T = 52.95
+   s = 0.4706  A = -3.509113867176470: collapse at T = 53.20
+   s = 0.5294  A = -3.509113866823529: collapse at T = 53.25
+   s = 0.5882  A = -3.509113866470588: collapse at T = 53.45
+   s = 0.6471  A = -3.509113866117647: undecided at T = nan
+   s = 0.7059  A = -3.509113865764705: disperse at T = 58.70
+   s = 0.7647  A = -3.509113865411765: disperse at T = 58.60
+   s = 0.8235  A = -3.509113865058823: disperse at T = 58.60
+   s = 0.8824  A = -3.509113864705882: disperse at T = 58.40
+   s = 0.9412  A = -3.509113864352941: disperse at T = 58.60
+   outcomes not a single flip ([]); stopping

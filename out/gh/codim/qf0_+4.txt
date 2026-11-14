@@ -1,0 +1,54 @@
+grid (400, 960) (ax 6.33), from T = 20.0 (400, 960) (ax 8.0); eta 1.0; tclock from T = 12.0 on tc* = 2.147
+round 0 from out/gh/codim/qf0_+4_init.npz: T = 0.00, bracket [-3.510383689486143, -3.508383689486143]
+round 0: from T = 0.00, grid (400, 960), ell 0.0965, ln L 0.0000, tc 0.00000
+  T = 0.00: active 16, amin 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 [1s]
+  T = 2.00: active 16, amin 0.327 0.327 0.327 0.327 0.327 0.328 0.328 0.328 0.328 0.328 0.328 0.328 0.328 0.328 0.328 0.328 [657s]
+  T = 4.00: active 16, amin 0.059 0.059 0.059 0.059 0.059 0.059 0.059 0.059 0.059 0.059 0.059 0.059 0.059 0.059 0.059 0.059 [1311s]
+  T = 6.00: active 16, amin 0.043 0.043 0.043 0.043 0.043 0.043 0.043 0.043 0.043 0.043 0.043 0.043 0.043 0.043 0.043 0.043 [1964s]
+  T = 8.00: active 16, amin 0.264 0.265 0.267 0.268 0.270 0.271 0.273 0.274 0.276 0.278 0.279 0.281 0.282 0.284 0.285 0.287 [2618s]
+  T = 10.00: active 16, amin 0.073 0.074 0.074 0.075 0.076 0.076 0.077 0.078 0.078 0.079 0.080 0.080 0.081 0.082 0.082 0.083 [3267s]
+  T = 12.00: tclock on, tc = 1.57529, c = 0.5494 (focus tc* = 2.147)
+  T = 12.00: active 16, amin 0.051 0.050 0.049 0.048 0.047 0.047 0.046 0.046 0.046 0.046 0.045 0.045 0.045 0.045 0.045 0.045 [3917s]
+  T = 14.00: active 16, amin 0.098 0.108 0.119 0.129 0.140 0.149 0.158 0.167 0.174 0.180 0.186 0.191 0.194 0.198 0.200 0.203 [4554s]
+  T = 16.00: active 16, amin 0.039 0.045 0.051 0.058 0.065 0.073 0.081 0.089 0.097 0.103 0.107 0.106 0.102 0.096 0.090 0.086 [5158s]
+  T = 18.00: active 16, amin 0.017 0.019 0.022 0.024 0.025 0.024 0.022 0.021 0.021 0.023 0.028 0.036 0.051 0.077 0.115 0.144 [5712s]
+  T = 19.60: member 4 collapse (C): max|C| 3.12, min alpha 0.0075, KK 30.79
+  T = 19.60: member 5 collapse (C): max|C| 3.59, min alpha 0.0069, KK 35.14
+  T = 19.70: member 0 collapse (C): max|C| 5.39, min alpha 0.0055, KK 18.42
+  T = 19.70: member 1 collapse (C): max|C| 3.7, min alpha 0.0063, KK 17.92
+  T = 19.70: member 2 collapse (C): max|C| 6.72, min alpha 0.0069, KK 25.45
+  T = 19.70: member 3 collapse (C): max|C| 7.57, min alpha 0.0071, KK 30.27
+  T = 19.70: member 6 collapse (C): max|C| 5.74, min alpha 0.0062, KK 60.72
+  T = 19.70: member 7 collapse (C): max|C| 3.27, min alpha 0.0069, KK 80.9
+  T = 19.90: member 8 collapse (C): max|C| 4.01, min alpha 0.0073, KK 72.19
+   regridded to (400, 960) (ax 8.0), ell 0.0501: max|C| 2.14e+00 [5s]
+  T = 20.00: grid (400, 960) [6258s]
+  T = 20.00: active 7, amin 0.011 0.020 0.032 0.033 0.038 0.051 0.063 [6259s]
+  T = 20.10: member 9 collapse (C): max|C| 3.97, min alpha 0.0099, KK 36.39
+  T = 20.30: member 10 collapse (C): max|C| 5.28, min alpha 0.0173, KK 51.47
+  T = 20.40: member 11 collapse (C): max|C| 4.38, min alpha 0.0234, KK 65.8
+  T = 20.60: member 12 collapse (C): max|C| 4.14, min alpha 0.0203, KK 94.14
+  T = 22.00: active 3, amin 0.015 0.019 0.013 [7261s]
+  T = 22.10: member 13 collapse (C): max|C| 4.09, min alpha 0.0143, KK 138.6
+  T = 22.80: member 14 collapse (C): max|C| 4.89, min alpha 0.0105, KK 214.9
+  T = 24.00: active 1, amin 0.005 [8101s]
+  T = 24.20: member 15 collapse (C): max|C| 3.71, min alpha 0.0046, KK 231.2
+round 0 [8183s]:
+   s = 0.0588  A = -3.510266042427320: collapse at T = 19.70
+   s = 0.1176  A = -3.510148395368496: collapse at T = 19.70
+   s = 0.1765  A = -3.510030748309672: collapse at T = 19.70
+   s = 0.2353  A = -3.509913101250849: collapse at T = 19.70
+   s = 0.2941  A = -3.509795454192025: collapse at T = 19.60
+   s = 0.3529  A = -3.509677807133202: collapse at T = 19.60
+   s = 0.4118  A = -3.509560160074378: collapse at T = 19.70
+   s = 0.4706  A = -3.509442513015555: collapse at T = 19.70
+   s = 0.5294  A = -3.509324865956731: collapse at T = 19.90
+   s = 0.5882  A = -3.509207218897908: collapse at T = 20.10
+   s = 0.6471  A = -3.509089571839084: collapse at T = 20.30
+   s = 0.7059  A = -3.508971924780261: collapse at T = 20.40
+   s = 0.7647  A = -3.508854277721437: collapse at T = 20.60
+   s = 0.8235  A = -3.508736630662614: collapse at T = 22.10
+   s = 0.8824  A = -3.508618983603790: collapse at T = 22.80
+   s = 0.9412  A = -3.508501336544966: collapse at T = 24.20
+   every member collapse: the bracket endpoints are not confirmed
+   outcomes not a single flip ([16]); stopping

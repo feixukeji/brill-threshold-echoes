@@ -1,0 +1,6 @@
+member 0 T 53.80: peak E^Z_Z +5.9599e+06 at z 0.01500; Weyl - Riemann +5.53e-02; |Ric|/|Riem| 1.92e-02; over |E| > 0.1 peak (z 0.0129-0.0184): 1.00e-01, 3.30e-01
+member 3 T 53.80: peak E^Z_Z +6.4729e+06 at z 0.01519; Weyl - Riemann +3.31e-02; |Ric|/|Riem| 1.11e-02; over |E| > 0.1 peak (z 0.0131-0.0184): 7.29e-02, 2.34e-01
+member 6 T 53.80: peak E^Z_Z +6.7481e+06 at z 0.01539; Weyl - Riemann -4.06e-04; |Ric|/|Riem| 2.07e-02; over |E| > 0.1 peak (z 0.0132-0.0185): 3.75e-02, 1.28e-01
+member 9 T 53.80: peak E^Z_Z +6.6412e+06 at z 0.01566; Weyl - Riemann -1.14e-02; |Ric|/|Riem| 1.00e-02; over |E| > 0.1 peak (z 0.0134-0.0187): 2.07e-02, 1.05e-01
+member 12 T 53.80: peak E^Z_Z +7.5924e+06 at z 0.01388; Weyl - Riemann +1.87e-03; |Ric|/|Riem| 3.64e-03; over |E| > 0.1 peak (z 0.0136-0.0187): 9.59e-03, 2.35e-02
+member 15 T 53.80: peak E^Z_Z +8.3381e+06 at z 0.01394; Weyl - Riemann +4.19e-03; |Ric|/|Riem| 3.44e-03; over |E| > 0.1 peak (z 0.0137-0.0186): 8.36e-03, 1.73e-02

@@ -1,0 +1,25 @@
+grid (400, 960) (ax 6.33), from T = 20.0 (400, 960) (ax 8.0); eta 1.0; tclock from T = 12.0 on tc* = 2.147
+round 0: from T = 0.00, grid (400, 960), ell 0.0965, ln L 0.0000, tc 0.00000
+  T = 0.00: active 8, amin 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 [1s]
+  T = 2.00: active 8, amin 0.039 0.062 0.104 0.161 0.208 0.270 0.308 0.332 [322s]
+  T = 4.00: active 8, amin 0.044 0.094 0.256 0.178 0.062 0.046 0.052 0.059 [642s]
+  T = 6.00: active 8, amin 0.036 0.101 0.042 0.020 0.039 0.128 0.064 0.040 [962s]
+  T = 8.00: active 8, amin 0.028 0.075 0.010 0.018 0.027 0.007 0.028 0.207 [1283s]
+  T = 8.20: member 5 collapse (C): max|C| 23, min alpha 0.0068, KK 258.8
+  T = 9.10: member 2 collapse (C): max|C| 3.12, min alpha 0.0063, KK 11.92
+  T = 9.20: member 0 collapse (C): max|C| 5.98, min alpha 0.0236, KK 5.487
+  T = 9.30: member 6 collapse (C): max|C| 3.16, min alpha 0.1239, KK 29.57
+  T = 9.90: member 3 collapse (C): max|C| 3.9, min alpha 0.0062, KK 30.63
+  T = 10.00: active 3, amin 0.038 0.007 0.042 [1601s]
+  T = 10.40: member 4 collapse (C): max|C| 20.9, min alpha 0.0053, KK 138.3
+  T = 11.70: member 1 collapse (C): max|C| 14.9, min alpha 0.0220, KK 13.56
+  T = 11.90: member 7 collapse (C): max|C| 4.84, min alpha 0.0672, KK 115.8
+round 0 [1929s]:
+   s = 0.0000  A = -4.700000000000000: collapse at T = 9.20
+   s = 0.3333  A = -4.300000000000000: collapse at T = 11.70
+   s = 0.5833  A = -4.000000000000000: collapse at T = 9.10
+   s = 0.7500  A = -3.800000000000000: collapse at T = 9.90
+   s = 0.8333  A = -3.700000000000000: collapse at T = 10.40
+   s = 0.9167  A = -3.600000000000000: collapse at T = 8.20
+   s = 0.9583  A = -3.550000000000000: collapse at T = 9.30
+   s = 0.9833  A = -3.520000000000000: collapse at T = 11.90

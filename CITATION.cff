@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or the archived output, please cite the paper below."
+title: "Finer tuning stops adding echoes to centered Brill waves near the black-hole threshold"
+abstract: "Generalized-harmonic evolution code in coordinates that zoom in on
+  the center, GPU threshold bisection, analysis scripts and archived output
+  for the near-threshold evolution of centered Brill waves."
+authors:
+  - family-names: Sun
+    given-names: Xulei
+    email: xulei.sun@yale.edu
+    affiliation: "Yale University"
+license: MIT
+repository-code: "https://github.com/feixukeji/brill-threshold-echoes"
+preferred-citation:
+  type: article
+  title: "Finer tuning stops adding echoes to centered Brill waves near the black-hole threshold"
+  authors:
+    - family-names: Sun
+      given-names: Xulei
+  year: 2026

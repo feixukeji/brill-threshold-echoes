@@ -1,0 +1,45 @@
+7 directions: A e105 e095 h085 rand0:1 rand1:1 rand2:1
+main negative lobes tc: 1.4070 1.5840 1.7013 1.8951 1.9832 2.0236
+  spacing ratio 0.662 -> Delta 0.413
+  spacing ratio 1.653 -> Delta -0.503
+  spacing ratio 0.455 -> Delta 0.788
+  spacing ratio 0.457 -> Delta 0.782
+tuned-mode coefficients (last two echoes): A:+1 e105:-0.106 e095:-0.149 h085:-0.89 rand0:1:+77.7 rand1:1:+43.5 rand2:1:-0.182
+per echo (log10, relative to ||e_0||): base ||e_0|| ratio | ||R_A|| | rest: sigma_1..5 | cos(c_echo, c) | max sym/R (random median) | A lin | dT
+per echo, noise floor (log10, per unit coefficient; then for sigma_1..5): one base, no estimate
+  [1.4070,1.5840)       139 |  -1.15 |  1.14  0.90 -0.82 -0.95 -1.14 | 0.812 | 1.8e+00 (1.3e-02) | 3.2e-01 |   -
+  [1.5840,1.7013)       320 |  -0.52 |  1.04  0.44 -0.38 -0.81 -1.00 ov 0.84 | 0.997 | 1.1e+00 (1.4e-02) | 1.6e-01 |   -
+  [1.7013,1.8951)  1.06e+03 |   0.93 |  2.67  1.77  0.30 -0.36 -0.63 ov 0.91 | 0.908 | 3.1e-01 (4.0e-04) | 9.9e-03 |   -
+  [1.8951,1.9832)  4.14e+03 |   1.87 |  2.68  2.22  0.67  0.43 -0.36 ov 0.59 | 1.000 | 1.4e-01 (3.4e-03) | 1.6e-03 |   -
+  [1.9832,2.0236)     8e+03 |   2.98 |  3.37  2.53  1.65  0.52  0.12 ov 0.82 | 1.000 | 2.0e-02 (7.5e-03) | 9.0e-04 |   -
+  echo 1: tuned growth mu_1   4.27, gamma = Delta / ln mu_1 0.284; leading rest  0.78; sigma_1..5 0.78 0.35 2.76 1.38 1.41; leading 4-dim input subspaces apart by 0 0 16 36 deg
+  echo 2: tuned growth mu_1  28.19, gamma = Delta / ln mu_1 -0.151; leading rest 42.73; sigma_1..5 42.73 21.23 4.77 2.76 2.35; leading 4-dim input subspaces apart by 0 0 16 68 deg
+  echo 3: tuned growth mu_1   8.63, gamma = Delta / ln mu_1 0.365; leading rest  1.04; sigma_1..5 1.04 2.83 2.32 6.18 1.82; leading 4-dim input subspaces apart by 0 0 2 87 deg
+  echo 4: tuned growth mu_1  13.01, gamma = Delta / ln mu_1 0.305; leading rest  4.84; sigma_1..5 4.84 2.01 9.54 1.25 3.04; leading 4-dim input subspaces apart by 0 0 1 15 deg
+joint over the last three echoes (one input combination per component, dT left out): growth per echo
+  comp 0:   6.85  12.78
+  comp 1:   0.94   4.58
+  comp 2:   1.95   1.06
+  comp 3:   3.93   2.31
+  comp 4:  11.83   0.87
+  comp 5:   0.84   2.52
+lobe invariants: t_n, kind, log10 |tuned part|, log10 |rest|
+  1.5840 lnE     1.29   1.07
+  1.5840 lnTau   1.49   1.89
+  1.6332 lnE     1.71   1.08
+  1.6332 lnTau   1.98   1.61
+  1.7013 lnE     1.28   0.68
+  1.7013 lnTau   1.75   1.98
+  1.7553 lnE     2.15   2.34
+  1.7553 lnTau   2.15   1.98
+  1.7858 lnE     3.20   3.27
+  1.7858 lnTau   2.41   1.51
+  1.8151 lnE     3.31   3.38
+  1.8151 lnTau   2.05   2.28
+  1.8951 lnE     3.39   2.88
+  1.8951 lnTau   3.57   3.10
+  1.9366 lnE     3.67   3.25
+  1.9366 lnTau   2.45   3.06
+  1.9832 lnE     4.09   3.14
+  1.9832 lnTau   4.09   3.50
+  2.0138 lnE     5.11   3.31

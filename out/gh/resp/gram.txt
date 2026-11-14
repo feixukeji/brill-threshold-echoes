@@ -1,0 +1,16 @@
+  out/gh/resp/t24d_T8_round0.json: 7 directions so far
+  out/gh/resp/t24d_T8r_round0.json: 13 directions so far
+  out/gh/resp/t24d_T8ax_round0.json: 16 directions so far
+  out/gh/resp/t24d_T8dT_round0.json: 21 directions so far
+21 directions; diagonal 1.000 ... 1.000; eigenvalues 0.003 ... 3.377
+wrote out/gh/resp/t24d_T8_gram.npz
+  out/gh/resp/e105_T8_round0.json: 7 directions so far
+7 directions; diagonal 1.000 ... 1.000; eigenvalues 0.810 ... 1.193
+wrote out/gh/resp/e105_T8_gram.npz
+  out/gh/resp/e095_T8_round0.json: 7 directions so far
+7 directions; diagonal 1.000 ... 1.000; eigenvalues 0.812 ... 1.190
+wrote out/gh/resp/e095_T8_gram.npz
+  out/gh/resp/t24d_T0qfa_round0.json: 7 directions so far
+  out/gh/resp/t24d_T0qfb_round0.json: 10 directions so far
+10 directions; diagonal 1.000 ... 1.000; eigenvalues 0.010 ... 4.928
+wrote out/gh/resp/t24d_T0qf_gram.npz

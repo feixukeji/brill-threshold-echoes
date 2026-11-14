@@ -1,0 +1,56 @@
+7 directions: A rand0:5 rand1:5 rand2:5 rand3:5 rand4:5 rand5:5
+main negative lobes tc: 1.4073 1.5839 1.7112 1.8850 1.9825 2.0333
+  spacing ratio 0.721 -> Delta 0.328
+  spacing ratio 1.366 -> Delta -0.312
+  spacing ratio 0.561 -> Delta 0.578
+  spacing ratio 0.521 -> Delta 0.652
+tuned-mode coefficients (last two echoes): A:+1 rand0:5:-59.2 rand1:5:-11.4 rand2:5:-38.6 rand3:5:-47.7 rand4:5:-103 rand5:5:+47.7
+input metric out/gh/resp/e095_T8_gram.npz: RMS of unit coefficient vectors 0.90 ... 1.09
+per echo (log10, relative to ||e_0||): base ||e_0|| ratio | ||R_A|| | rest: sigma_1..5 | cos(c_echo, c) | max sym/R (random median) | A lin | dT
+per echo, noise floor (log10, per unit coefficient; then for sigma_1..5): one base, no estimate
+  [1.4073,1.5839)       139 |  -0.99 |  1.54  1.16  0.88  0.80  0.31 | 0.091 | 1.8e+00 (1.2e-02) | 5.0e-01 |   -
+  [1.5839,1.7112)       332 |  -0.43 |  2.08  1.26  0.84  0.73  0.26 ov 0.50 | 0.210 | 6.1e-01 (7.5e-03) | 2.0e-01 |   -
+  [1.7112,1.8850)  1.19e+03 |   0.91 |  2.88  2.46  2.06  1.55  1.26 ov 0.30 | 0.811 | 5.0e-02 (1.0e-03) | 2.1e-02 |   -
+  [1.8850,1.9825)  3.71e+03 |   1.92 |  3.17  3.01  2.65  2.39  1.78 ov 0.65 | 0.994 | 1.1e-02 (3.1e-03) | 1.9e-03 |   -
+  [1.9825,2.0333)   5.2e+03 |   2.78 |  3.80  3.51  3.26  2.62  2.23 ov 0.02 | 0.999 | 9.5e-03 (7.3e-03) | 3.3e-04 |   -
+  echo 1: tuned growth mu_1   3.64, gamma = Delta / ln mu_1 0.254; leading rest  3.44; sigma_1..5 3.44 1.25 0.91 0.85 0.90; leading 4-dim input subspaces apart by 0 0 0 89 deg
+  echo 2: tuned growth mu_1  21.94, gamma = Delta / ln mu_1 -0.101; leading rest  6.34; sigma_1..5 6.34 15.79 16.45 6.70 10.00; leading 4-dim input subspaces apart by 0 0 1 82 deg
+  echo 3: tuned growth mu_1  10.25, gamma = Delta / ln mu_1 0.249; leading rest  1.97; sigma_1..5 1.97 3.52 3.91 6.86 3.32; leading 4-dim input subspaces apart by 0 0 0 43 deg
+  echo 4: tuned growth mu_1   7.15, gamma = Delta / ln mu_1 0.331; leading rest  4.24; sigma_1..5 4.24 3.21 4.02 1.68 2.77; leading 4-dim input subspaces apart by 0 0 0 4 deg
+fixed input combinations in the leading m joint components: min / max growth between echoes
+  m = 2:   1.19   7.04 |   2.48   9.67 |   7.30  27.65   (echo 1 -> 2 | 2 -> 3 | 1 -> 3)
+  m = 3:   0.45  14.69 |   1.54  21.12 |   3.36  54.25   (echo 1 -> 2 | 2 -> 3 | 1 -> 3)
+  m = 4:   0.45  23.60 |   0.62  21.16 |   2.93 102.88   (echo 1 -> 2 | 2 -> 3 | 1 -> 3)
+  m = 5:   0.41  31.33 |   0.61  21.16 |   2.13 150.41   (echo 1 -> 2 | 2 -> 3 | 1 -> 3)
+  m = 6:   0.31  31.49 |   0.49  37.85 |   1.78 151.44   (echo 1 -> 2 | 2 -> 3 | 1 -> 3)
+joint over the last three echoes (one input combination per component, dT left out): growth per echo
+  comp 0:  11.20   6.83
+  comp 1:   2.77   4.14
+  comp 2:   2.51   2.90
+  comp 3:   1.94   1.87
+  comp 4:   5.61   0.60
+  comp 5:   1.12   1.98
+lobe invariants: t_n, kind, log10 |tuned part|, log10 |rest|
+  1.5839 lnE     0.66   1.88
+  1.5839 lnTau   1.50   2.19
+  1.6351 lnE     1.79   2.05
+  1.6351 lnTau   1.24   2.31
+  1.7112 lnE     1.64   2.60
+  1.7112 lnTau   2.20   2.68
+  1.7631 lnE     1.55   2.76
+  1.7631 lnTau   2.10   2.39
+  1.7894 lnE     1.92   3.12
+  1.7894 lnTau   2.52   3.38
+  1.8169 lnE     2.63   3.39
+  1.8169 lnTau   2.71   3.44
+  1.8850 lnE     3.37   3.32
+  1.8850 lnTau   3.51   3.32
+  1.9376 lnE     3.73   3.52
+  1.9376 lnTau   3.66   3.49
+  1.9825 lnE     4.38   3.65
+  1.9825 lnTau   4.39   3.65
+  1.9988 lnE     4.76   4.29
+  1.9988 lnTau   5.39   4.31
+  2.0037 lnE     4.76   3.68
+  2.0037 lnTau   5.37   4.92
+  2.0197 lnE     5.18   4.36

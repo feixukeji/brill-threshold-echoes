@@ -1,0 +1,8 @@
+T  41.0 tc 2.0720: max|I| -1.479e+09 at (X, Z) L/rem = (0.033, 0.229) | centre +4.379e+07 | axis +6.919e+08 at Z L/rem 0.355, z 0.0266, proper 0.0355 | equator -6.189e+08 at X L/rem 0.040 [29s]
+T  42.0 tc 2.0768: max|I| +2.738e+09 at (X, Z) L/rem = (0.000, 0.428) | centre +6.858e+07 | axis +2.738e+09 at Z L/rem 0.428, z 0.0300, proper 0.0508 | equator +3.027e+08 at X L/rem 0.032 [26s]
+T  42.5 tc 2.0785: max|I| -4.483e+09 at (X, Z) L/rem = (0.029, 0.427) | centre +8.732e+07 | axis +3.280e+09 at Z L/rem 0.424, z 0.0290, proper 0.0552 | equator +2.393e+08 at X L/rem 0.036 [25s]
+T  43.0 tc 2.0802: max|I| -1.271e+10 at (X, Z) L/rem = (0.023, 0.453) | centre +8.773e+07 | axis +2.699e+09 at Z L/rem 0.599, z 0.0400, proper 0.0942 | equator -1.389e+08 at X L/rem 0.020 [24s]
+T  43.5 tc 2.0835: max|I| +5.678e+10 at (X, Z) L/rem = (0.000, 0.672) | centre +1.058e+06 | axis +5.678e+10 at Z L/rem 0.672, z 0.0426, proper 0.1271 | equator -1.807e+08 at X L/rem 0.013 [28s]
+T  44.0 tc 2.0880: max|I| +1.637e+12 at (X, Z) L/rem = (0.000, 0.514) | centre +2.112e+09 | axis +1.637e+12 at Z L/rem 0.514, z 0.0303, proper 0.0951 | equator +2.112e+09 at X L/rem 0.000 [30s]
+T  44.5 tc 2.0907: max|I| +5.666e+11 at (X, Z) L/rem = (0.000, 0.529) | centre +3.213e+06 | axis +5.666e+11 at Z L/rem 0.529, z 0.0298, proper 0.0666 | equator -4.773e+08 at X L/rem 0.014 [26s]
+T  45.0 tc 2.0932: max|I| +1.644e+11 at (X, Z) L/rem = (0.000, 0.470) | centre +4.295e+08 | axis +1.644e+11 at Z L/rem 0.470, z 0.0253, proper 0.0456 | equator +4.295e+08 at X L/rem 0.000 [34s]

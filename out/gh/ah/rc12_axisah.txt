@@ -1,0 +1,5 @@
+member 2 T 60.0: axis minimum of the lapse at Z 0.680 (z 0.01471), sqrt(g_XX / g_ZZ) 3.98
+  s  1.00 centred: min over spheres of max(Theta) r +1.51 (r 0.444), of min(Theta) r -0.71 (r 0.772); no MOTS
+  s  1.00 about zc: min over spheres of max(Theta) r +0.92 (r 0.058), of min(Theta) r +0.14 (r 0.591); no MOTS
+  s  3.98 centred: min over spheres of max(Theta) r +1.13 (r 0.147), of min(Theta) r +0.52 (r 0.691); no MOTS
+  s  3.98 about zc: min over spheres of max(Theta) r +0.93 (r 0.020), of min(Theta) r +0.88 (r 0.020); no MOTS
