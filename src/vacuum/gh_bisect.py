@@ -360,8 +360,8 @@ def main():
     p.add_argument('--lo', type=float, help='amplitude on the collapse side')
     p.add_argument('--hi', type=float, help='amplitude on the dispersal side')
     p.add_argument('--eta', type=float, default=1.0, help='Brill shape: axial over radial width (gh_data.q_holz)')
-    p.add_argument('--eps', type=float, default=0.0, help='Brill shape: odd-in-z deformation 1 + eps z/sigma '
-                   '(needs --full)')
+    p.add_argument('--eps', type=float, default=0.0, help='Brill shape: factor 1 + eps z/sigma (needs --full); '
+                   'to first order a z-translation, not a physical odd direction')
     p.add_argument('--full', action='store_true', help='full-Z grid (no equatorial symmetry), 2 nz nodes on [-L, L]')
     p.add_argument('--B', type=int, default=16)
     p.add_argument('--rounds', type=int, default=6)

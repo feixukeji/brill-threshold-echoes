@@ -32,7 +32,8 @@ def q_holz(A, sigma, eta=1.0, eps=0.0):
     and its rho,rho + z,z Laplacian (as functions of rho, z).  eta = 1 is
     Holz's form (sigma then only sets the scale); eta != 1 (axial over radial
     width) is a second shape parameter; eps != 0 breaks the equatorial
-    symmetry (an odd-in-z deformation)."""
+    symmetry, but d/d eps q = -(eta^2 sigma/2) d/dz q at eps = 0: to first
+    order a z-translation, so physical odd-in-z change starts at eps^2."""
     def q(rho, z):
         return (A * rho ** 2 / sigma ** 2 * np.exp(-rho ** 2 / sigma ** 2 - z ** 2 / (eta * sigma) ** 2)
                 * (1 + eps * z / sigma))
